@@ -1,0 +1,163 @@
+body {
+    font-family: "Oswald", sans-serif;
+    background-color: rgb(32, 62, 67);
+}
+
+.head {
+    display: flex;
+}
+
+.logo {
+    height: 180px;
+    width: 180px;
+    border-width: 5px;
+    border-color: red;
+}
+
+.head #headText {
+    color: white;
+    margin-top: 70px;
+    margin-left: 18%;
+}
+
+.links {
+    float: left;
+}
+
+.links a {
+    text-decoration: none;
+    display: block;
+    width: 180px;
+    margin: 5px;
+    padding: 7px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.content {
+    color: white;
+    margin-left: 20%;
+}
+
+.content img {
+    height: 250px;
+    width: 250px;
+}
+
+.content ul {
+    width: 250px;
+    list-style-image: url(../images/point);
+}
+
+.footer {
+    clear: both;
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+
+}
+
+.cv {
+    color: white;
+    margin-left: 20%;
+
+}
+
+.buttons {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 27%;
+    height: 10%;
+    padding: 10px;
+}
+
+.lfBT {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    cursor: pointer;
+}
+
+.rtBT {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    cursor: pointer;
+}
+
+.lfBT:hover {
+    background-color: rgb(32, 65, 67);
+}
+
+.rtBT:hover {
+    background-color: rgb(32, 65, 67);
+}
+
+
+.thumbs {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.thumbs li {
+    height: 10%;
+    width: 10%;
+    padding: 10px;
+    background-color: gray;
+    margin: 1%;
+    box-shadow: 1px 1px 5px 5px gray;
+    cursor: pointer;
+}
+
+.thumbs li img {
+    width: 100%;
+    height: 150px;
+}
+
+.temp {
+    text-align: center;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gellaryImg {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.gellaryImg img {
+    width: 100%;
+    height: 600px;
+}
+
+#selImg {
+    display: block;
+    width: 440px;
+    height: 440px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.vidClass {
+    margin-left: 370px;
+    color: white;
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+}
